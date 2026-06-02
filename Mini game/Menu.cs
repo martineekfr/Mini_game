@@ -3,7 +3,7 @@ namespace Mini_game;
 public class Menu : Gameplay
 {
     public static bool Menu_smicka = true;
-    public string Exit_message = "Hra se ukoncuje";
+    public static string Exit_message = "Hra se ukoncuje";
 
     public Menu(bool menu_smicka, string exit_message) 
     {
@@ -26,7 +26,11 @@ public class Menu : Gameplay
                     await Game();
                     break;
                 case 2:
+                    Console.WriteLine(Exit_message);
                     Menu_smicka = false;
+                    break;
+                default:
+                    Console.WriteLine("Choose a valid option");
                     break;
             }
         }
