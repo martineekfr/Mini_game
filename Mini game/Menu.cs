@@ -2,7 +2,7 @@ namespace Mini_game;
 
 public class Menu : Gameplay
 {
-    private bool Menu_smicka = true;
+    public static bool Menu_smicka = true;
     public string Exit_message = "Hra se ukoncuje";
 
     public Menu(bool menu_smicka, string exit_message) 
@@ -12,11 +12,11 @@ public class Menu : Gameplay
     }
     
 
-    public void Start()
+    public static async Task Start()
     {
         while (Menu_smicka)
         {
-            Console.WriteLine("Welcome to Mini Game! \n 1) start game \n 2) exit");
+            Console.WriteLine("\n Welcome to Mini Game! \n 1) start game \n 2) exit");
             
             int choice = Convert.ToInt32(Console.ReadLine());
 

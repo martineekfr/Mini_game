@@ -1,14 +1,10 @@
-﻿using System;
-using System.Threading.Tasks;
-using static Mini_game.Menu;
-
-namespace Mini_game
+﻿namespace Mini_game
 {
-    class Program : Menu
+    class Program
     {
-        static void Main()
+        static async Task Main()
         {
-            
+            await Menu.Start();
         
         }
     }    
