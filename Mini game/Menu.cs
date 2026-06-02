@@ -23,7 +23,7 @@ public class Menu : Gameplay
             switch (choice)
             {
                 case 1:
-                    Game();
+                    await Game();
                     break;
                 case 2:
                     Menu_smicka = false;

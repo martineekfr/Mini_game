@@ -13,5 +13,8 @@ public class Gameplay
             await Task.Delay(50);
         }
         
+        Console.Clear();
+        
+        
     }
 }
