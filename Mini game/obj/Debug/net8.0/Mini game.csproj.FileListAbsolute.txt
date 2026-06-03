@@ -1,15 +1,30 @@
-C:\Users\marti\RiderProjects\Mini game\Mini game\obj\Debug\net8.0\Mini game.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\marti\RiderProjects\Mini game\Mini game\obj\Debug\net8.0\Mini game.AssemblyInfoInputs.cache
-C:\Users\marti\RiderProjects\Mini game\Mini game\obj\Debug\net8.0\Mini game.AssemblyInfo.cs
-C:\Users\marti\RiderProjects\Mini game\Mini game\obj\Debug\net8.0\Mini game.csproj.CoreCompileInputs.cache
-C:\Users\marti\RiderProjects\Mini game\Mini game\bin\Debug\net8.0\Mini game.exe
-C:\Users\marti\RiderProjects\Mini game\Mini game\bin\Debug\net8.0\Mini game.deps.json
-C:\Users\marti\RiderProjects\Mini game\Mini game\bin\Debug\net8.0\Mini game.runtimeconfig.json
-C:\Users\marti\RiderProjects\Mini game\Mini game\bin\Debug\net8.0\Mini game.dll
-C:\Users\marti\RiderProjects\Mini game\Mini game\bin\Debug\net8.0\Mini game.pdb
-C:\Users\marti\RiderProjects\Mini game\Mini game\obj\Debug\net8.0\Mini game.sourcelink.json
-C:\Users\marti\RiderProjects\Mini game\Mini game\obj\Debug\net8.0\Mini game.dll
-C:\Users\marti\RiderProjects\Mini game\Mini game\obj\Debug\net8.0\refint\Mini game.dll
-C:\Users\marti\RiderProjects\Mini game\Mini game\obj\Debug\net8.0\Mini game.pdb
-C:\Users\marti\RiderProjects\Mini game\Mini game\obj\Debug\net8.0\Mini game.genruntimeconfig.cache
-C:\Users\marti\RiderProjects\Mini game\Mini game\obj\Debug\net8.0\ref\Mini game.dll
+C:/Users/marti/RiderProjects/Mini game/Mini game/obj/Debug/net8.0/Mini game.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/marti/RiderProjects/Mini game/Mini game/obj/Debug/net8.0/Mini game.AssemblyInfoInputs.cache
+C:/Users/marti/RiderProjects/Mini game/Mini game/obj/Debug/net8.0/Mini game.AssemblyInfo.cs
+C:/Users/marti/RiderProjects/Mini game/Mini game/obj/Debug/net8.0/Mini game.csproj.CoreCompileInputs.cache
+C:/Users/marti/RiderProjects/Mini game/Mini game/bin/Debug/net8.0/Mini game.exe
+C:/Users/marti/RiderProjects/Mini game/Mini game/bin/Debug/net8.0/Mini game.deps.json
+C:/Users/marti/RiderProjects/Mini game/Mini game/bin/Debug/net8.0/Mini game.runtimeconfig.json
+C:/Users/marti/RiderProjects/Mini game/Mini game/bin/Debug/net8.0/Mini game.dll
+C:/Users/marti/RiderProjects/Mini game/Mini game/bin/Debug/net8.0/Mini game.pdb
+C:/Users/marti/RiderProjects/Mini game/Mini game/obj/Debug/net8.0/Mini game.sourcelink.json
+C:/Users/marti/RiderProjects/Mini game/Mini game/obj/Debug/net8.0/Mini game.dll
+C:/Users/marti/RiderProjects/Mini game/Mini game/obj/Debug/net8.0/refint/Mini game.dll
+C:/Users/marti/RiderProjects/Mini game/Mini game/obj/Debug/net8.0/Mini game.pdb
+C:/Users/marti/RiderProjects/Mini game/Mini game/obj/Debug/net8.0/Mini game.genruntimeconfig.cache
+C:/Users/marti/RiderProjects/Mini game/Mini game/obj/Debug/net8.0/ref/Mini game.dll
+/home/martin/RiderProjects/Mini_game/Mini game/obj/Debug/net8.0/Mini game.GeneratedMSBuildEditorConfig.editorconfig
+/home/martin/RiderProjects/Mini_game/Mini game/obj/Debug/net8.0/Mini game.AssemblyInfoInputs.cache
+/home/martin/RiderProjects/Mini_game/Mini game/obj/Debug/net8.0/Mini game.AssemblyInfo.cs
+/home/martin/RiderProjects/Mini_game/Mini game/obj/Debug/net8.0/Mini game.csproj.CoreCompileInputs.cache
+/home/martin/RiderProjects/Mini_game/Mini game/obj/Debug/net8.0/Mini game.sourcelink.json
+/home/martin/RiderProjects/Mini_game/Mini game/bin/Debug/net8.0/Mini game
+/home/martin/RiderProjects/Mini_game/Mini game/bin/Debug/net8.0/Mini game.deps.json
+/home/martin/RiderProjects/Mini_game/Mini game/bin/Debug/net8.0/Mini game.runtimeconfig.json
+/home/martin/RiderProjects/Mini_game/Mini game/bin/Debug/net8.0/Mini game.dll
+/home/martin/RiderProjects/Mini_game/Mini game/bin/Debug/net8.0/Mini game.pdb
+/home/martin/RiderProjects/Mini_game/Mini game/obj/Debug/net8.0/Mini game.dll
+/home/martin/RiderProjects/Mini_game/Mini game/obj/Debug/net8.0/refint/Mini game.dll
+/home/martin/RiderProjects/Mini_game/Mini game/obj/Debug/net8.0/Mini game.pdb
+/home/martin/RiderProjects/Mini_game/Mini game/obj/Debug/net8.0/Mini game.genruntimeconfig.cache
+/home/martin/RiderProjects/Mini_game/Mini game/obj/Debug/net8.0/ref/Mini game.dll

@@ -1,5 +1,6 @@
 namespace Mini_game;
 
+
 public class Gameplay
 { 
     public static async Task Game()
@@ -10,11 +11,10 @@ public class Gameplay
         foreach (char znak in Uvodni_text)
         {
             Console.Write(znak);
-            await Task.Delay(50);
+            await Task.Delay(90);
         }
         
         Console.Clear();
-        
         
     }
 }
