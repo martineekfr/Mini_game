@@ -23,6 +23,6 @@ public class Player
 
     public void Heal()
     {
-        Hrac_hp += 10;
+        Hrac_hp += 50;
     }
 }

@@ -12,7 +12,7 @@ public class Monsters_Class
         Monster_name = monster_name;
         Monster_hp = monster_hp;
     }
-    Player p = new Player(100);
+    Player p = new Player(150);
 
     public Monsters_Class Fight() // Zahaji interakci s nahodnym monstrem 
     {
