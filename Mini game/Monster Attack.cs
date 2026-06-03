@@ -12,6 +12,7 @@ public class Monsters_Class
         Monster_name = monster_name;
         Monster_hp = monster_hp;
     }
+
     Player p = new Player(150);
 
     public Monsters_Class Fight() // Zahaji interakci s nahodnym monstrem 
@@ -27,7 +28,7 @@ public class Monsters_Class
                               $"1) pest {pouziti1} left \n" +
                               $"2) kamen {pouziti2} left \n" +
                               $"3) sekyra {pouziti3} left \n" +
-                              $"4) heal {pouziti4} left \n " +
+                              $"4) heal {pouziti4} left \n" +
                               "5) utect \n");
             int choice3 = int.Parse(Console.ReadLine());
             switch (choice3)
