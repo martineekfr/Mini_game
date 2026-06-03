@@ -26,11 +26,15 @@ public class Monsters_Class
 
     public List<Monsters_Class> Monstra = new List<Monsters_Class>();
     
-    public Monsters_Class Monster_Attack()
+    public Monsters_Class Monster_Attack() // Zahaji interakci s nahodnym monstrem 
     {
         Console.WriteLine("Monstrum: " +  monstrum.Monster + "Hp: " + monstrum.Monster_hp + "\n Vyber jak chces pokracovat: " +
                           "\n 1) zautocit " +
                           "\n 2) utect");
+        
+        int choice2 = int.Parse(Console.ReadLine());
+        
+        
         
         
     }
