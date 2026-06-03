@@ -19,10 +19,12 @@ public class Menu : Gameplay
             Console.WriteLine("\n Welcome to Mini Game! \n 1) start game \n 2) exit");
             
             int choice = Convert.ToInt32(Console.ReadLine());
+            Console.Clear();
 
             switch (choice)
             {
                 case 1:
+                    Console.Clear();
                     await Game();
                     break;
                 case 2:
