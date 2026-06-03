@@ -12,49 +12,48 @@ public class Monsters_Class
         Monster_name = monster_name;
         Monster_hp = monster_hp;
     }
-    
-    static List<string> names = ["Karel Hp:", "Kresomira Hp:", "Damian Hp:", "MJ Hp:"]; // list s nazvy monster. bude se nahodne losovat jmeno a hp monstra
-    static Random rnd = new Random(); // generator
-    static string randomName = names[rnd.Next(names.Count)]; //generovani random cisla
 
-    static List<int> Hp = [50, 75, 100, 125, 150]; // list s cisly 
-    static Random rnd2 = new Random(); // generator 2.0
-    static int randomHp = Hp[rnd.Next(Hp.Count)];
-   
-    static Monsters_Class monstrum = new Monsters_Class(randomName, randomHp);
-    
-   
-    
-    public static Monsters_Class Monster_Attack() // Zahaji interakci s nahodnym monstrem 
+    public Monsters_Class Fight() // Zahaji interakci s nahodnym monstrem 
     {
-        
-        int choice2 = int.Parse(Console.ReadLine());
-        string zabiti_message = "Zabili jste monstrum prejete si pokracoavt";
-
-        switch (choice2)
+        int pouziti1 = 10;
+        int pouziti2 = 5;
+        int pouziti3 = 1;
+        while (Monster_hp > 0)
         {
-            case 1:
-                Console.WriteLine("Jaky utok ches pouzit? \n" +
-                                  "1) pest \n" +
-                                  "2) kamen \n" +
-                                  "3) utect");
-                int choice3 = int.Parse(Console.ReadLine());
-                switch (choice3)
-                {
-                    case 1:
-                        Console.WriteLine("utok");
-                        return monstrum;
-
-                        break;
-                }
-                break;
-            
+            Console.WriteLine($"Jaky utok ches pouzit? \n" + // vyber utoku
+                              $"1) pest{pouziti1} \n" +
+                              $"2) kamen{pouziti2} \n" +
+                              $"3) sekyra{pouziti3} \n" +
+                              "4) utect");
+            int choice3 = int.Parse(Console.ReadLine());
+            switch (choice3)
+            {
+                case 1:
+                    Console.WriteLine("pest");
+                    Player p = new Player(100);
+                    pest();
+                    pouziti1--;
+                    break;
+            }
         }
         Console.WriteLine("Porazil jsi :");
-        return monstrum;
-        
-
+        return new Monsters_Class(Monster_name, Monster_hp);
     }
-    
-    
+
+    public void pest()
+    {
+        Monster_hp -= 10;
+    }
+
+    public void kamen()
+    {
+        Monster_hp -= 20;
+    }
+
+    public void sekyra()
+    {
+        Monster_hp -= 100;
+    }
+
+
 }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mini game")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a78a1a6b47513bc9f7770c7aa92280d2241de90b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d9a0e2fb3cc50da3ae5946ed0715d18241283fe6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mini game")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mini game")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
