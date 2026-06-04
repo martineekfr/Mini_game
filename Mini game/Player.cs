@@ -14,7 +14,7 @@ public class Player
 
     public void TakeDamage()
     {
-        List<int> attack_damage = new List<int>([10, 20, 30, 40, 50]);
+        List<int> attack_damage = new List<int>([30,40,50,60,70,80,90,100]);
         Random _random = new Random();
         int damage = attack_damage[_random.Next(attack_damage.Count)];
         Hrac_hp -= damage;
@@ -23,6 +23,13 @@ public class Player
 
     public void Heal()
     {
-        Hrac_hp += 50;
+        if (Hrac_hp > 130)
+        {
+            Hrac_hp = 200;
+        }
+        else
+        {
+            Hrac_hp += 70;
+        }
     }
 }

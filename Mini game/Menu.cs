@@ -16,6 +16,7 @@ public class Menu : Gameplay
     {
         while (Menu_smicka)
         {
+            
             Console.WriteLine("\n Welcome to Mini Game! \n 1) start game \n 2) exit");
             
             int choice = Convert.ToInt32(Console.ReadLine());

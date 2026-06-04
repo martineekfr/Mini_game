@@ -14,7 +14,7 @@ public class Monsters_Class
     }
     public Monsters_Class Fight() // Zahaji interakci s nahodnym monstrem 
     {
-        Player p = new Player(150);
+        Player p = new Player(200);
         
         int pouziti1 = 10;
         int pouziti2 = 5;
