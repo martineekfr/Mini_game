@@ -16,23 +16,18 @@ public class Menu : Gameplay
     {
         while (Menu_smicka)
         {
-            
-            Console.WriteLine("\n Welcome to Mini Game! \n 1) start game \n 2) exit");
-            
-            int choice = Convert.ToInt32(Console.ReadLine());
+            List<string> options = new List<string> { "start game", "exit" };
+            int choice = InputHelper.ShowMenu(options, "\n Welcome to Mini Game! ");
             Console.Clear();
 
             switch (choice)
             {
-                case 1:
+                case 0:
                     await Game();
                     break;
-                case 2:
+                case 1:
                     Console.WriteLine(Exit_message);
                     Menu_smicka = false;
-                    break;
-                default:
-                    Console.WriteLine("Choose a valid option");
                     break;
             }
         }

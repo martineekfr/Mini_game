@@ -5,9 +5,9 @@ public class Gameplay
 { 
     public static async Task Game()
     {
-        string Uvodni_text = "Jsi na skolnim vylete a najednou zahlednes jeskyni. " +
-                             "Tak se tam rozhodnes vydat po par hodinach hledani, " +
-                             "najdes takovou velkou mistnost a vni monstra.";
+        string Uvodni_text = "Jsi se skolou na vylete. Kdyz prochazite kolem jedne skaly, tak vni zahlednete takovy vchod. " +
+                             "Po chvili premysleni se rozhodnes se do ni vydat. Po par minutach hledani najdes temnou mistnost." +
+                             "Kdyz do ni vstoupis, tak na tebe najednou z temneho rohu vybehne montrum";
         foreach (char znak in Uvodni_text)
         {
             Console.Write(znak);

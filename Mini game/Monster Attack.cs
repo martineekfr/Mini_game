@@ -22,7 +22,7 @@ public class Monsters_Class
         int pouziti4 = 3;
         while (Monster_hp > 0 && p.Hrac_hp > 0)
         {
-            Console.WriteLine($"\n {Monster_name} {Monster_hp} hp | Hrac {p.Hrac_hp}" +
+            Console.WriteLine($"\nMonstrum: {Monster_name} {Monster_hp} hp | Hrac {p.Hrac_hp} hp" +
                               $"\nJaky utok ches pouzit? \n" + // vyber utoku
                               $"1) pest {pouziti1} left \n" +
                               $"2) kamen {pouziti2} left \n" +
